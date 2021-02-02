@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Swagger Interective Documents" duration-ms="3148" started-at="2021-02-01T20:43:25 EST" finished-at="2021-02-01T20:43:28 EST">
+    <groups>
+      <group name="PUT Methods">
+        <method signature="InteractiveDocuments.test_PUT()[pri:4, instance:com.test.InteractiveDocuments@5f3a4b84]" name="test_PUT" class="com.test.InteractiveDocuments"/>
+      </group> <!-- PUT Methods -->
+      <group name="Get Methods">
+        <method signature="InteractiveDocuments.test_get01()[pri:1, instance:com.test.InteractiveDocuments@5f3a4b84]" name="test_get01" class="com.test.InteractiveDocuments"/>
+        <method signature="InteractiveDocuments.test_get02()[pri:3, instance:com.test.InteractiveDocuments@5f3a4b84]" name="test_get02" class="com.test.InteractiveDocuments"/>
+        <method signature="InteractiveDocuments.test_get03()[pri:5, instance:com.test.InteractiveDocuments@5f3a4b84]" name="test_get03" class="com.test.InteractiveDocuments"/>
+      </group> <!-- Get Methods -->
+      <group name="DELETE Methods">
+        <method signature="InteractiveDocuments.test_DELETE()[pri:6, instance:com.test.InteractiveDocuments@5f3a4b84]" name="test_DELETE" class="com.test.InteractiveDocuments"/>
+      </group> <!-- DELETE Methods -->
+      <group name="POST Methods">
+        <method signature="InteractiveDocuments.test_Post()[pri:2, instance:com.test.InteractiveDocuments@5f3a4b84]" name="test_Post" class="com.test.InteractiveDocuments"/>
+      </group> <!-- POST Methods -->
+    </groups>
+    <test name="HTTP Methods Utilization" duration-ms="3148" started-at="2021-02-01T20:43:25 EST" finished-at="2021-02-01T20:43:28 EST">
+      <class name="com.test.InteractiveDocuments">
+        <test-method status="PASS" signature="test_get01()[pri:1, instance:com.test.InteractiveDocuments@5f3a4b84]" name="test_get01" duration-ms="1697" started-at="2021-02-01T20:43:25 EST" finished-at="2021-02-01T20:43:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get01 -->
+        <test-method status="PASS" signature="test_Post()[pri:2, instance:com.test.InteractiveDocuments@5f3a4b84]" name="test_Post" duration-ms="443" started-at="2021-02-01T20:43:27 EST" finished-at="2021-02-01T20:43:27 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Post -->
+        <test-method status="PASS" signature="test_get02()[pri:3, instance:com.test.InteractiveDocuments@5f3a4b84]" name="test_get02" duration-ms="694" started-at="2021-02-01T20:43:27 EST" finished-at="2021-02-01T20:43:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get02 -->
+        <test-method status="PASS" signature="test_PUT()[pri:4, instance:com.test.InteractiveDocuments@5f3a4b84]" name="test_PUT" duration-ms="75" started-at="2021-02-01T20:43:28 EST" finished-at="2021-02-01T20:43:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_PUT -->
+        <test-method status="PASS" signature="test_get03()[pri:5, instance:com.test.InteractiveDocuments@5f3a4b84]" name="test_get03" duration-ms="136" started-at="2021-02-01T20:43:28 EST" finished-at="2021-02-01T20:43:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get03 -->
+        <test-method status="PASS" signature="test_DELETE()[pri:6, instance:com.test.InteractiveDocuments@5f3a4b84]" name="test_DELETE" duration-ms="38" started-at="2021-02-01T20:43:28 EST" finished-at="2021-02-01T20:43:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_DELETE -->
+      </class> <!-- com.test.InteractiveDocuments -->
+    </test> <!-- HTTP Methods Utilization -->
+  </suite> <!-- Swagger Interective Documents -->
+</testng-results>
